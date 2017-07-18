@@ -9,6 +9,8 @@ public class Menu {
     private String menulist;
     private int hargalist;
 
+    //test repository
+
     public Menu() {
 
     }
