@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">MenuCalc</string>
+    <string name="tambah_menu_settings">Tambah Menu</string>
+    <string name="tentang_settings">Tentang</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="Nama">Nama</string>
+    <string name="Jenis">Jenis</string>
+    <string name="daftar_makanan">Daftar Makanan</string>
+    <string name="daftar_minuman">Daftar Minuman</string>
+    <string name="ini_menu">Ini Menu</string>
+    <string name="ini_harga">Ini Harga</string>
+    <string name="fragment_kasir">Kasir</string>
+    <string name="oke">OKE</string>
+    <string name="reset">RESET</string>
+    <string name="totalmakanan">Total Makanan :</string>
+    <string name="totalminuman">Total Minuman :</string>
+    <string name="_0">0</string>
+    <string name="nolist">No</string>
+    <string name="item">Item</string>
+    <string name="hargalist">Harga</string>
+    <string name="ini_nomor">Nomor</string>
+    <string name="ini_item">Item</string>
+    <string name="ini_harga_list">Harga</string>
+    <string name="bintang">Bintang</string>
+    <string-array name="tabs">
+        <item>Tab 1</item>
+        <item>Tab 2</item>
+        <item>Tab 3</item>
+    </string-array>
+    <string-array name="Menu">
+        <item>Makanan</item>
+        <item>Minuman</item>
+    </string-array>
+</resources>

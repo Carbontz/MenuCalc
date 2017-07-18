@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/ini_menu"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:id="@+id/txtMenu"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/ini_harga"
+        android:textSize="15sp"
+        android:id="@+id/txtHarga"
+        android:layout_gravity="center"
+        android:layout_below="@+id/txtMenu"
+        android:layout_alignStart="@+id/txtMenu" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iconBintang"
+        android:layout_below="@+id/txtMenu"
+        android:contentDescription="@string/bintang"
+        android:layout_alignBottom="@+id/txtHarga"
+        android:layout_alignEnd="@+id/txtMenu"
+        android:background="@drawable/ic_star" />
+</RelativeLayout>
